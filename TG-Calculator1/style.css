@@ -1,0 +1,64 @@
+#answer {
+    color: rgb(29, 27, 148);
+}
+table {
+    width: 310px;
+    margin: 50px auto;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px 20px;
+    background-color:rgba(19, 10, 16, 0.527); 
+}
+
+.heading {
+    color: white;
+    font-size: 130%;
+    text-align: center;
+}
+
+#input, #answer {
+    width: 260px;
+    height: 50px;
+    font-size: 210%;
+    text-align: right;
+    border: none;
+}
+#input {
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px black;
+    color: rgba(28, 70, 184, 0.801);
+}
+#answer {
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 2px rgba(13, 4, 22, 0.486);
+}
+
+input[type=button] {
+    height: 60px;
+    width: 60px;
+    color: rgb(1, 5, 8);
+    font-size: 120%;
+    background-color: rgba(211, 125, 161, 0.644), 0.644)25);
+    margin: 1px;
+    border: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+input[type=button]:hover {
+    background: #1cc40d;
+    cursor: pointer;
+}
+
+#equalto {
+    width: 125px;
+    background-color: rgb(13, 223, 135);
+}
+
+#ON {
+    background-color: rgb(253, 156, 10);
+    color: rgb(196, 141, 141) hover;
+}
+.symbol {
+    background-color: #dd0b4070;
+}

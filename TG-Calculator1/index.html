@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device=width, initial-scale=1.0">
+<meta http-equiv="X-UA-compatible" content="ie=edge">
+<meta name="author" content=" ">
+<meta name="keywords" content="calculator, operator, number">
+<meta name="description" content="Calculator">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+<title>My first Web Calculator</title>
+</head>
+
+<body>
+        <form name="myform">
+
+                <!-- <input type="text" name="textview" class="textview" Bereonwu web calculator width:350px;> -->
+                <p id="demo"></p>
+            </form>
+
+    <table>
+    <!-- Calculator Top section -->
+
+        <tr> 
+            <td class="heading">    
+                TG Web Calculator
+            <td>
+        </tr> 
+        <p id="demo"></p>
+        <tr> 
+            <td>
+                <input type="text" id="input" placeholder="" readonly="readonly"/>
+                <input type="text" id="answer" readonly="readonly"/>
+            </td>
+        </tr>
+
+    <!-- Calculator Top section -->
+
+    <!-- Calculator Button section -->
+    
+        <tr>
+            <td>
+                <input type="button" id="ON" value="ON/C" onclick="ON()"/>
+                <input type="button" id="backspace" value="BS" onclick="backspace()"/>
+                <input type="button" id="clear" value="OFF" onclick="clearnum()"/>
+                <input type="button" id="add" value=" + " onclick="operator('+')"/>    
+                <br>
+                <input type="button" id="num7" value="7" onclick="getnum(7)"/>
+                <input type="button" id="num8" value="8" onclick="getnum(8)"/>
+                <input type="button" id="num9" value="9" onclick="getnum(9)"/>
+                <input type="button" id="subtract" value=" - " onclick="operator('-')"/>
+                <br>
+                <input type="button" id="num4" value="4" onclick="getnum(4)"/>
+                <input type="button" id="num5" value="5" onclick="getnum(5)"/>
+                <input type="button" id="num6" value="6" onclick="getnum(6)"/>
+                <input type="button" id="divide" value=" &#247 " onclick="operator('/')"/>
+                <br>
+                <input type="button" id="num1" value="1" onclick="getnum(1)"/>
+                <input type="button" id="num2" value="2" onclick="getnum(2)"/>
+                <input type="button" id="num3" value="3" onclick="getnum(3)"/>
+                <input type="button" id="multiply" value=" x " onclick="operator('*')"/>
+                <br>
+                <input type="button" id="num0" value="0" onclick="getnum(0)"/>
+                <input type="button" id="decimal" value=" . " onclick="getnum('.')"/>
+                <input type="button" id="equalto" value=" = " onclick="compute()"/>
+            </td>
+        </tr>
+
+    <!-- Calculator Button section -->
+   
+    </table>
+
+
+</body>
+
+</html>
